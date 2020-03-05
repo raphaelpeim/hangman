@@ -1,0 +1,30 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#word {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 335px;
+  border: 1px solid black;
+}
+
+#letters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 335px;
+  border: 1px solid black;
+}
+
+#letters:hover, #word:hover {
+  cursor: default;
+}
